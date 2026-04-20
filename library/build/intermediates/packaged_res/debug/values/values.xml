@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <declare-styleable name="BadgeView">
+        <attr format="color" name="bv_badgeColor"/>
+        <attr format="color" name="bv_textColor"/>
+        <attr format="dimension" name="bv_textSize"/>
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+        <attr format="reference" name="cet_clearIcon"/>
+    </declare-styleable>
+    <declare-styleable name="CustomSeekBar">
+        <attr format="dimension" name="csb_trackHeight"/>
+        <attr format="dimension" name="csb_trackCornerRadius"/>
+        <attr format="color" name="csb_progressColor"/>
+        <attr format="color" name="csb_trackColor"/>
+        <attr format="dimension" name="csb_thumbSize"/>
+        <attr format="color" name="csb_thumbColor"/>
+        <attr format="dimension" name="csb_thumbBorderWidth"/>
+        <attr format="color" name="csb_thumbBorderColor"/>
+        <attr format="boolean" name="csb_showTicks"/>
+        <attr format="integer" name="csb_tickCount"/>
+        <attr format="color" name="csb_tickColor"/>
+        <attr format="dimension" name="csb_tickWidth"/>
+    </declare-styleable>
+    <declare-styleable name="DividerView">
+        <attr format="color" name="div_color"/>
+        <attr format="dimension" name="div_thickness"/>
+        <attr format="enum" name="div_orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr format="dimension" name="div_dashWidth"/>
+        <attr format="dimension" name="div_dashGap"/>
+    </declare-styleable>
+    <declare-styleable name="DrawableView">
+        <attr format="color" name="dv_solidColor"/>
+        <attr format="dimension" name="dv_cornerRadius"/>
+        <attr format="dimension" name="dv_borderWidth"/>
+        <attr format="color" name="dv_borderColor"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr format="integer" name="etv_maxCollapsedLines"/>
+        <attr format="string" name="etv_expandText"/>
+        <attr format="string" name="etv_collapseText"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr format="dimension" name="fl_horizontalSpacing"/>
+        <attr format="dimension" name="fl_verticalSpacing"/>
+    </declare-styleable>
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr format="dimension" name="mhrv_maxHeight"/>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr format="dimension" name="riv_cornerRadius"/>
+        <attr format="dimension" name="riv_topLeftRadius"/>
+        <attr format="dimension" name="riv_topRightRadius"/>
+        <attr format="dimension" name="riv_bottomLeftRadius"/>
+        <attr format="dimension" name="riv_bottomRightRadius"/>
+        <attr format="dimension" name="riv_borderWidth"/>
+        <attr format="color" name="riv_borderColor"/>
+        <attr format="boolean" name="riv_isCircle"/>
+    </declare-styleable>
+    <declare-styleable name="StatusBarView">
+        <attr format="color" name="sbv_color"/>
+    </declare-styleable>
+    <declare-styleable name="SuperDrawableTextView">
+        <attr format="color" name="stv_backgroundSolid"/>
+        <attr format="reference" name="stv_gradientColors"/>
+        <attr format="float" name="stv_gradientAngle"/>
+        <attr format="enum" name="stv_gradientType">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+            <enum name="sweep" value="2"/>
+        </attr>
+        <attr format="dimension" name="stv_cornerRadius"/>
+        <attr format="dimension" name="stv_borderWidth"/>
+        <attr format="color" name="stv_borderColor"/>
+    </declare-styleable>
+    <declare-styleable name="TitleBar">
+        <attr format="string" name="tb_title"/>
+        <attr format="color" name="tb_titleColor"/>
+        <attr format="dimension" name="tb_titleSize"/>
+        <attr format="boolean" name="tb_showBack"/>
+        <attr format="string" name="tb_rightText"/>
+    </declare-styleable>
+</resources>

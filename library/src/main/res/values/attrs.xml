@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DrawableView -->
+    <declare-styleable name="DrawableView">
+        <attr name="dv_solidColor" format="color" />
+        <attr name="dv_cornerRadius" format="dimension" />
+        <attr name="dv_borderWidth" format="dimension" />
+        <attr name="dv_borderColor" format="color" />
+    </declare-styleable>
+
+    <!-- SuperDrawableTextView -->
+    <declare-styleable name="SuperDrawableTextView">
+        <attr name="stv_backgroundSolid" format="color" />
+        <attr name="stv_gradientColors" format="reference" />
+        <attr name="stv_gradientAngle" format="float" />
+        <attr name="stv_gradientType" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+        <attr name="stv_cornerRadius" format="dimension" />
+        <attr name="stv_borderWidth" format="dimension" />
+        <attr name="stv_borderColor" format="color" />
+    </declare-styleable>
+
+    <!-- CustomSeekBar -->
+    <declare-styleable name="CustomSeekBar">
+        <attr name="csb_trackHeight" format="dimension" />
+        <attr name="csb_trackCornerRadius" format="dimension" />
+        <attr name="csb_progressColor" format="color" />
+        <attr name="csb_trackColor" format="color" />
+        <attr name="csb_thumbSize" format="dimension" />
+        <attr name="csb_thumbColor" format="color" />
+        <attr name="csb_thumbBorderWidth" format="dimension" />
+        <attr name="csb_thumbBorderColor" format="color" />
+        <attr name="csb_showTicks" format="boolean" />
+        <attr name="csb_tickCount" format="integer" />
+        <attr name="csb_tickColor" format="color" />
+        <attr name="csb_tickWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- RoundImageView -->
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_cornerRadius" format="dimension" />
+        <attr name="riv_topLeftRadius" format="dimension" />
+        <attr name="riv_topRightRadius" format="dimension" />
+        <attr name="riv_bottomLeftRadius" format="dimension" />
+        <attr name="riv_bottomRightRadius" format="dimension" />
+        <attr name="riv_borderWidth" format="dimension" />
+        <attr name="riv_borderColor" format="color" />
+        <attr name="riv_isCircle" format="boolean" />
+    </declare-styleable>
+
+    <!-- ClearEditText -->
+    <declare-styleable name="ClearEditText">
+        <attr name="cet_clearIcon" format="reference" />
+    </declare-styleable>
+
+    <!-- FlowLayout -->
+    <declare-styleable name="FlowLayout">
+        <attr name="fl_horizontalSpacing" format="dimension" />
+        <attr name="fl_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <!-- MaxHeightRecyclerView -->
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="mhrv_maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- StatusBarView -->
+    <declare-styleable name="StatusBarView">
+        <attr name="sbv_color" format="color" />
+    </declare-styleable>
+
+    <!-- ExpandableTextView -->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="etv_maxCollapsedLines" format="integer" />
+        <attr name="etv_expandText" format="string" />
+        <attr name="etv_collapseText" format="string" />
+    </declare-styleable>
+
+    <!-- BadgeView -->
+    <declare-styleable name="BadgeView">
+        <attr name="bv_badgeColor" format="color" />
+        <attr name="bv_textColor" format="color" />
+        <attr name="bv_textSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- TitleBar -->
+    <declare-styleable name="TitleBar">
+        <attr name="tb_title" format="string" />
+        <attr name="tb_titleColor" format="color" />
+        <attr name="tb_titleSize" format="dimension" />
+        <attr name="tb_showBack" format="boolean" />
+        <attr name="tb_rightText" format="string" />
+    </declare-styleable>
+
+    <!-- DividerView -->
+    <declare-styleable name="DividerView">
+        <attr name="div_color" format="color" />
+        <attr name="div_thickness" format="dimension" />
+        <attr name="div_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="div_dashWidth" format="dimension" />
+        <attr name="div_dashGap" format="dimension" />
+    </declare-styleable>
+
+</resources>

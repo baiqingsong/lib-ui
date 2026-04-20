@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LibUI Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- DrawableView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DrawableView"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <com.dawn.lib_ui.view.DrawableView
+            android:id="@+id/drawable_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            app:dv_solidColor="#4CAF50"
+            app:dv_cornerRadius="12dp"
+            app:dv_borderWidth="2dp"
+            app:dv_borderColor="#388E3C" />
+
+        <!-- SuperDrawableTextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SuperDrawableTextView"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <com.dawn.lib_ui.view.SuperDrawableTextView
+            android:id="@+id/super_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="渐变圆角文本"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:stv_backgroundSolid="#FF5722"
+            app:stv_cornerRadius="8dp"
+            app:stv_borderWidth="1dp"
+            app:stv_borderColor="#E64A19" />
+
+        <!-- RoundImageView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RoundImageView"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <com.dawn.lib_ui.view.RoundImageView
+            android:id="@+id/round_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:scaleType="centerCrop"
+            app:riv_cornerRadius="16dp"
+            app:riv_borderWidth="2dp"
+            app:riv_borderColor="#2196F3" />
+
+        <!-- CustomSeekBar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomSeekBar"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <com.dawn.lib_ui.view.CustomSeekBar
+            android:id="@+id/custom_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:max="100"
+            android:progress="50"
+            app:csb_trackHeight="6dp"
+            app:csb_trackCornerRadius="3dp"
+            app:csb_progressColor="#FF4081"
+            app:csb_trackColor="#E0E0E0"
+            app:csb_thumbSize="20dp"
+            app:csb_thumbColor="#FFFFFF"
+            app:csb_thumbBorderWidth="2dp"
+            app:csb_thumbBorderColor="#FF4081" />
+
+        <!-- RecyclerView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="组件列表"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>

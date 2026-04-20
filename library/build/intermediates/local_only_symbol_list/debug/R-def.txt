@@ -1,0 +1,72 @@
+R_DEF: Internal format may change without notice
+local
+attr? bv_badgeColor
+attr? bv_textColor
+attr? bv_textSize
+attr? cet_clearIcon
+attr? csb_progressColor
+attr? csb_showTicks
+attr? csb_thumbBorderColor
+attr? csb_thumbBorderWidth
+attr? csb_thumbColor
+attr? csb_thumbSize
+attr? csb_tickColor
+attr? csb_tickCount
+attr? csb_tickWidth
+attr? csb_trackColor
+attr? csb_trackCornerRadius
+attr? csb_trackHeight
+attr? div_color
+attr? div_dashGap
+attr? div_dashWidth
+attr? div_orientation
+attr? div_thickness
+attr? dv_borderColor
+attr? dv_borderWidth
+attr? dv_cornerRadius
+attr? dv_solidColor
+attr? etv_collapseText
+attr? etv_expandText
+attr? etv_maxCollapsedLines
+attr? fl_horizontalSpacing
+attr? fl_verticalSpacing
+attr? mhrv_maxHeight
+attr? riv_borderColor
+attr? riv_borderWidth
+attr? riv_bottomLeftRadius
+attr? riv_bottomRightRadius
+attr? riv_cornerRadius
+attr? riv_isCircle
+attr? riv_topLeftRadius
+attr? riv_topRightRadius
+attr? sbv_color
+attr? stv_backgroundSolid
+attr? stv_borderColor
+attr? stv_borderWidth
+attr? stv_cornerRadius
+attr? stv_gradientAngle
+attr? stv_gradientColors
+attr? stv_gradientType
+attr? tb_rightText
+attr? tb_showBack
+attr? tb_title
+attr? tb_titleColor
+attr? tb_titleSize
+id horizontal
+id linear
+id radial
+id sweep
+id vertical
+style BaseDialog
+styleable BadgeView bv_badgeColor bv_textColor bv_textSize
+styleable ClearEditText cet_clearIcon
+styleable CustomSeekBar csb_trackHeight csb_trackCornerRadius csb_progressColor csb_trackColor csb_thumbSize csb_thumbColor csb_thumbBorderWidth csb_thumbBorderColor csb_showTicks csb_tickCount csb_tickColor csb_tickWidth
+styleable DividerView div_color div_thickness div_orientation div_dashWidth div_dashGap
+styleable DrawableView dv_solidColor dv_cornerRadius dv_borderWidth dv_borderColor
+styleable ExpandableTextView etv_maxCollapsedLines etv_expandText etv_collapseText
+styleable FlowLayout fl_horizontalSpacing fl_verticalSpacing
+styleable MaxHeightRecyclerView mhrv_maxHeight
+styleable RoundImageView riv_cornerRadius riv_topLeftRadius riv_topRightRadius riv_bottomLeftRadius riv_bottomRightRadius riv_borderWidth riv_borderColor riv_isCircle
+styleable StatusBarView sbv_color
+styleable SuperDrawableTextView stv_backgroundSolid stv_gradientColors stv_gradientAngle stv_gradientType stv_cornerRadius stv_borderWidth stv_borderColor
+styleable TitleBar tb_title tb_titleColor tb_titleSize tb_showBack tb_rightText
